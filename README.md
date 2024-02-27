@@ -2,7 +2,7 @@
 
 ## Week 0: Scratch
 - **Introduction to Scratch:** Explore the fascinating world of programming in a [visual and interactive way](#).
-- **Initial Project:** Develop your creative skills by creating simple projects using [Scratch](#).
+- **Initial Project:** Develop your creative skills by creating simple projects using [Scratch](https://scratch.mit.edu/).
 
 ## Week 1: C
 - **Initiation to C Language:** Discover the fundamentals of the [C language](#), essential for understanding low-level programming.
