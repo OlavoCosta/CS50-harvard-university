@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="container mt-3">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Shares</th>
+          <th>Price</th>
+          <th>Transacted</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%for row in database%}
+            <tr>
+            <td>{{ row["symbol"] }}</td>
+            <td>{{ row["shares"] }}</td>
+            <td>{{ row["price"] }}</td>
+            <td>{{row["data"]}}</td>
+            </tr>
+        {%endfor%}
+        </tbody>
+    </table>
+  </div>
+{% endblock %}

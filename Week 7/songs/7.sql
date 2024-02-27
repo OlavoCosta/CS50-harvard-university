@@ -1,0 +1,2 @@
+-- Perform the query on the artistis table by selecting the id where to find name 'Drake', then after finding it, perform the average of the songs.
+SELECT avg(energy) FROM songs WHERE artist_id = (SELECT id FROM artists WHERE name = 'Drake');

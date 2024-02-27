@@ -1,0 +1,13 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+TODO:
+Based on the 100 songs made available in the songs database, my audio aura would be in the following order orange, purple and green.
+sharing the need for high-energy sounds and confidence, purple auras tune in to get excited and ultimately gravitate around complex music.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+TODO:
+We can analyze that there are several types of music genres in this playlist, but according to Spotify's information, the colors that complement each other most in the lyrics are,
+in the following order: orange, purple, green, yellow, blue and pink. But this analysis could be wrong because we have no concrete information about the shade of the colors.
+My proposal would be to stipulate a number from 0 to 10, or even RGB from 0 to 255, but I believe that it would be easier to perform the analysis from 0 to 10,
+because we won't need dozens or hundreds of colors, there will only be 6 colors. When stipulating the numbering for the colors defined by Spotify, assign a numbering for the lyrics of the songs,
+so it would be easier to identify the shade of color present in the song and the user can identify it. This would make it easier even for programmers to identify them in a supposed database,
+similar to the one proposed by Lab 7.

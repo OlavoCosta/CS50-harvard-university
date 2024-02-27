@@ -1,0 +1,301 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Final Project CS50
+{% endblock %}
+
+{% block content %}
+
+    <body>
+        <header style="background-image: url(static/images/page-images/Harvard-University-Campus.jpg);">
+            <section>
+                <div class="overlay"></div>
+            </section>
+
+            <section class="hidden">
+                <div class="text-homepage">
+                    <h1>Final Project</h1>
+                    <h3>Harvard <strong>CS50</strong></h3>
+                </div>
+            </section>
+
+            <section class="emblem">
+                    <img src="{{ url_for('static', filename='images/page-images/Harvard-Emblem.png') }}" style="height: 540px;" alt="Emblem Harvard">
+            </section>
+
+        </header>
+    </body>
+
+    <main class="other-pages">
+        <section>
+            <div class="overlay-2"></div>
+        </section>
+
+        <section class="page01">
+
+            <div class="boxcolor01">
+                <article class="text-week1">
+                    <h1>WEEK 0</h1>
+                    <p>In my week 0 in Computer Science CS50, I was able to go a little deeper into the various subjects covered, some subjects I already had a level of knowledge because I had already learned in my college, but remembering and fixing these contents is always good. The subjects mentioned in the course were of great importance to be able to perform my week 0 in CS50, with Troubleshooting, inputs and outputs, Binary Representation, Decimal, ASCII Table, Algorithms, Functions, Arguments, Variables, Conditionals and several others, I was able to perform a good exercise in week 0 of CS50. To check this exercise just click on the link provided, hope you like it.</p>
+                </article>
+                <article class="caption-scracth">
+                    <h2>Scratch</h2>
+                    <p>"Never give up on being happy. Always fight for your dreams."</p>
+                </article>
+            </div>
+
+            <div class="boxcolor02">
+                <div class="imgs">
+                    <img class="imgs01" src="{{ url_for('static', filename='images/page-images/scratch-logo.png') }}" style="height: 110px;" alt="Logo Scracth">
+                    <img class="imgs02" src="{{ url_for('static', filename='images/page-images/scratch-banner.png') }}" style="height: 300px;" alt="Banner Scracth">
+                </div>
+                <section class="button">
+                    <a href="https://scratch.mit.edu/projects/841761769/" target="_blank">Scractch Game</a>
+                </section>
+            </div>
+
+        </section>
+
+        <section class="page02">
+
+            <div class="boxcolor03">
+                <section class="wrapper">
+                    <i class="fa-solid fa-arrow-left button" id="prev"></i>
+                    <div class="image-container">
+                        <div class="carousel">
+                            <img src="{{ url_for('static', filename='images/weeks/C/Hello.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/C/Cash.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/Arrays/bulbs.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/Arrays/substitution.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/Algorithms/runoff.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/Algorithms/plurality.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/memory/filter-less.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/memory/reverse.png') }}" alt="" />
+                            <img src="{{ url_for('static', filename='images/weeks/Data Structures/speller.png') }}" alt="" />
+                        </div>
+                    <i class="fa-solid fa-arrow-right button" id="next"></i>
+                    </div>
+                  </section>
+
+                <div class="page02-imgs">
+                    <img class="imgs03" src="{{ url_for('static', filename='images/page-images/c-language.png') }}" style="height: 240px;" alt="Logo C Language">
+                </div>
+
+            </div>
+
+            <div class="boxcolor04">
+                <article class="text-week1">
+                    <h1>WEEKS 1 TO 5</h1>
+                    <p>In week 1 of CS50, several contents were made available, a lot of information and a lot of learning, but all focused on the C language. This language was chosen because it is the basis for practically all the others, as David Malan always says, "To know a little more how it happens under the hood", and in fact this is really necessary, because when we have a sense of what is happening we can develop several problems available in our week 1 of activities. Beside are some of the exercises that were proposed for week 1, in these exercises we can observe new types of manipulations, conditionals, variables, design, header files and among others, all this new learning was necessary so that we could carry out the activities of the coming weeks. Weeks that make up learning such as ARRAYS, ALGORITHMS, MEMORY and DATA STRUCTURES. If you want to have a better view of these codes, just access my GitHub.</p>
+                </article>
+                <article class="caption-scracth">
+                    <h2>C language</h2>
+                    <p>"Learning a bit about how things happen under the hood."</p>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="page03">
+
+            <div class="boxcolor05">
+                <article class="text-week1">
+                    <h1>WEEK 6</h1>
+                    <p>After a few long and massive weeks of C-oriented content, week 6 of CS50 provides us with a rest of content and information. We cannot deny that thanks to the level of complexity and the various ways of solving the activities of the previous weeks, python has become "easy", but as master David Malan informed us, when you have the knowledge and the idea of what is going on under the hood, the other languages become easier, as they have the same logic of a low-level language like the C language, changing only a little of its logic and most of its syntax. Python is a high-level, interpreted scripting, object-oriented, functional, dynamically typed, and strong programming language; its syntax makes it much easier as it does not have many minimalistic details like a low-level language.</p>
+                </article>
+
+                <article class="caption-scracth">
+                    <h2>Python</h2>
+                    <p>"The point is not to know the codes or the command lines, it's to know what to do with them."</p>
+                </article>
+            </div>
+
+            <div class="boxcolor06">
+                <div class="page03-imgs">
+                    <img class="imgs05" src="{{ url_for('static', filename='images/page-images/python-gif.gif') }}" style="width: 500px;" alt="Logo Python">
+                    <img class="imgs04" src="{{ url_for('static', filename='images/page-images/python.png') }}" style="width: 300px;" alt="Logo Python">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="page04">
+
+            <div class="boxcolor07">
+                <div class="page04-imgs">
+                    <img class="imgs06" src="{{ url_for('static', filename='images/page-images/mariadb.png') }}" style="width: 160px;" alt="">
+                    <img class="imgs07" src="{{ url_for('static', filename='images/page-images/microsoftazure.png') }}" style="width: 160px;" alt="">
+                    <img class="imgs08" src="{{ url_for('static', filename='images/page-images/mysql.png') }}" style="width: 160px;" alt="">
+                    <img class="imgs09" src="{{ url_for('static', filename='images/page-images/oracle.png') }}" style="width: 160px;" alt="">
+                    <img class="imgs10" src="{{ url_for('static', filename='images/page-images/postgre.png') }}" style="width: 130px;" alt="">
+                    <img class="imgs11" src="{{ url_for('static', filename='images/page-images/sqlserver.png') }}" style="width: 130px;" alt="">
+                    <img class="imgs12" src="{{ url_for('static', filename='images/page-images/ibm.png') }}" style="width: 160px;" alt="">
+                    <img class="imgs13" src="{{ url_for('static', filename='images/page-images/firebird.png') }}" style="width: 200px;" alt="">
+                </div>
+            </div>
+
+            <div class="boxcolor08">
+                <article class="text-week1">
+                    <h1>WEEK 7</h1>
+                    <p>Of all the previous weeks, the one I like the most is week 7 of CS50. Studying and gaining knowledge about the SQL language pleased me and motivated me to pursue a career in the data field. In week 7, we learned how to create databases and their tables as well as their syntax and types, statements, constraints, functions and transactions. The SQL language is the best known resource for programmers to execute commands in relational databases. It was through it that we were able to create the exercises proposed by CS50 in week 7 and the following weeks, as well as perform data queries. In short, it is through SQL that we "talk" to the database.</p>
+                </article>
+
+                <article class="caption-scracth">
+                    <h2>language sql</h2>
+                    <p>"I have no words to express how important the database is for us."</p>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="page05">
+
+            <div class="boxcolor09">
+                <article class="text-week1">
+                    <h1>WEEK 8</h1>
+                    <p>In the final stretch of CS50 Computer Science, week 8 presents what we know as the FRONT-END of programming. In week 8 we learned more about HTML, CSS and JavaScript, particularly there was already knowledge about HTML and CSS, but not much about JavaScript, I confess that it was one of the most difficult steps, but with a lot of determination we achieved the goal. Among the exercises organized by week 8, one of them was a web page with JavaScript, HTML and CSS. If you are curious to know how this application was developed by me, take a look at my GitHub.</p>
+                </article>
+
+                <article class="caption-scracth">
+                    <h2>HTML CSS JavaScript</h2>
+                    <p>"Everything that is truly great and inspiring is created by the individual who can work in freedom."</p>
+                </article>
+            </div>
+
+            <div class="boxcolor10">
+                <div class="page05-imgs">
+                    <img class="imgs15" src="{{ url_for('static', filename='images/page-images/displayscrollreveal.gif') }}" style="width: 570px; height: 366px;" alt="Display Macbook">
+                    <img class="imgs14" src="{{ url_for('static', filename='images/page-images/macbook.png') }}" style="width: 850px;" alt="Macbook">
+                    <img class="imgs18" src="{{ url_for('static', filename='images/page-images/logojavascript.png') }}" style="width: 140px;" alt="Logo JavaScript">
+                    <img class="imgs17" src="{{ url_for('static', filename='images/page-images/logocss.png') }}" style="width: 120px;" alt="Logo CSS">
+                    <img class="imgs16" src="{{ url_for('static', filename='images/page-images/logohtml.png') }}" style="width: 140px;" alt="Logo HTML">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="page06">
+
+            <div class="boxcolor11">
+                <div class="page06-imgs">
+                    <img class="imgs19" src="{{ url_for('static', filename='images/page-images/logoflask.png') }}" style="height: 250px;" alt="Banner Scracth">
+                </div>
+            </div>
+
+            <div class="boxcolor12">
+                <article class="text-week1">
+                    <h1>WEEK 9</h1>
+                    <p>In the penultimate week of CS50, David Malan introduced me to a content that I never imagined I would see, the python framework called FLASK. This framework allows ease, practicality and clarity in web development codes, applied in a clean, coherent and correct way flask becomes very useful for developers who usually do monthly or even weekly maintenance on websites. With week 9 of CS50, we learned how to use the routes of each page of the application, the decorators their requests and their responses, clearly flask is one of the applications that I want to work a lot in the future, developing my knowledge with Python, SQL and Flask.</p>
+                </article>
+                <article class="caption-scracth">
+                    <h2>Flask</h2>
+                    <p>"Before software can be reusable it must first be usable."</p>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="page07">
+
+            <div class="boxcolor13">
+                <article class="text-week1">
+                    <h1>WEEK 10</h1>
+                    <p>Well, in this last part as week 10 of CS50, I decided to separate to thank the course. I am very grateful to Harvard University, to all the employees who work to make CS50 happen and especially to Master David Malan, who with his incredible didactics provided us with excellent knowledge. Finally, for you who are interested in attending CS50 do not waste time, I AFFIRM that Computer Science CS50 will provide a great introduction to computing, to the world of technology, and if you want help to follow the projects that you will develop during the course I will be happy to help you, just sign up next door and weekly I will check the results of these registrations and try to provide assistance and pass on my knowledge to you. Well, that was CS50.</p>
+                </article>
+                <article class="caption-scracth">
+                    <h2>Final Project</h2>
+                    <p>"Thank you for attending, hope to see you at the next CS50s."</p>
+                </article>
+            </div>
+
+            <div class="box-register">
+                <form action="/register" method="POST">
+                    <fieldset>
+
+                        <legend><b>Registration Form</b></legend>
+                        <br>
+                        <div class="inputbox">
+                            <input type="text" name="name" id="name" class="inputUser" required>
+                            <label for="name" class="labelInput">Full Name</label>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="tel" name="telephone" id="telephone" class="inputUser" required>
+                            <label for="telephone" class="labelInput">Telephone</label>
+                        </div>
+                        <br><br>
+                        <p>Gender:</p>
+                        <br>
+                        <input type="radio" id="female" name="Gender" value="female">
+                        <label for="female">Female</label>
+                        <br>
+                        <input type="radio" id="male" name="Gender" value="male">
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" id="others" name="Gender" value="others">
+                        <label for="others">Others</label>
+                        <br><br>
+                        <div class="inputbox">
+                            <label for="birth-date"><b>Year of Birth:</b></label>
+                            <input type="date" name="birth-date" id="birth-date">
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="text" name="state" id="state" class="inputUser">
+                            <label for="state" class="labelInput">State</label>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="text" name="city" id="city" class="inputUser">
+                            <label for="city" class="labelInput">City</label>
+                        </div>
+                        <br><br>
+                        <button class="btn-btn-primary" type="submit">Register</button>
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+
+        <section class="page08">
+            <section class="finalpage">
+                <div class="text-finalpage">
+                    <h1>It was the <strong class="strong2">CS50</strong></h1>
+                </div>
+            </section>
+        </section>
+
+        <footer>
+
+            <img src="{{ url_for('static', filename='images/page-images/bottom-footer2.png') }}" style="width: 100%; height: 150%;" alt="">
+
+            <div class="media-icons">
+                <a href="https://github.com/OlavoCosta" class="icon01" target="_blank" rel="external">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/olavo-costa-25398b240/" class="icon02" target="_blank" rel="external">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                </a>
+                <a href="https://www.instagram.com/_olavocoosta/?hl=pt-br" class="icon03" target="_blank" rel="external">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                </a>
+            </div>
+            <a href="#" class="bottom-homepage">HomePage</a>
+
+        </footer>
+
+    </main>
+    <script src="static/JavaScript/scripts.js"></script>
+{% endblock %}

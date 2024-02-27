@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="container mt-3">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Name</th>
+          <th>Shares</th>
+          <th>Price</th>
+          <th>TOTAL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%for row in database%}
+            <tr>
+            <td>{{ row["symbol"] }}</td>
+            <td>{{ row["name"] }}</td>
+            <td>{{ row["shares"] }}</td>
+            <td>{{ row["price"] | usd }}</td>
+            <td>${{ "%.2f"|format (row["price"]*row["shares"]) }}</td>
+            </tr>
+        {%endfor%}
+      </tbody>
+      <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th>Cash</th>
+            <td>{{cash | usd}}</td>
+        </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th>TOTAL</th>
+            <td>${{ "%.2f"|format(total) }}</td>
+          </tr>
+      </tfoot>
+    </table>
+  </div>
+{% endblock %}

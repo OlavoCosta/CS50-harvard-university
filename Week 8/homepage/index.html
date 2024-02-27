@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" href="Brain-icon-black.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <header>
+            <a href="https://olavocosta-improved-waffle-gjgwvwrwqrrfv4jr-8080.preview.app.github.dev/index.html" target="_self" class="brand">MY HOMEPAGE</a>
+            <section class="navigation">
+                <section class="navigation-items">
+                    <a href="https://olavocosta-improved-waffle-gjgwvwrwqrrfv4jr-8080.preview.app.github.dev/index.html" target="_self">home</a>
+                </section>
+            </section>
+        </header>
+
+        <section class="home">
+            <video class="video-slide active" src="1.mp4" autoplay muted loop></video>
+            <video class="video-slide" src="2.mp4" autoplay muted loop></video>
+            <video class="video-slide" src="3.mp4" autoplay muted loop></video>
+            <video class="video-slide" src="4.mp4" autoplay muted loop></video>
+            <video class="video-slide" src="5.mp4" autoplay muted loop></video>
+            <article class="content active">
+                <h1>Introducing.<br><span>My home page</span></h1>
+                <p>What's up, nice to meet you, my name is Olavo Costa, but my friends call me Lavinho. This is a small project among several others proposed by harvard cs50, but this one specifically is one of the ones I most enjoy developing, after SQL of course. In the week 8 lab it was required to do a project composing HTML, CSS and JavaScript, and as I already have a little more notion about the previous weeks I was able to develop this well. My decision was, to develop a web page that would present a little more about me, about my likes, my dreams and favorite hobby, so below you will see a series of four more pages, besides this one, that demonstrates exactly these peculiarities and the explanation about each one. For you who have made it this far, I hope you enjoy the content and that it inspires you to do simple things in a creative and well-done way, expanding the horizons of your creativity.
+                <span id="dots">...</span><span id="more">Curiosity: You may be wondering why this video shown on the homepage was chosen, since it is a content that will show what most describes me, in fact, this video represents most of my life until the year I graduated from high school, since I was a kid I always wanted to be an astronomer, to learn more about the stars, how we came and got to this current reality. I have always been a person fascinated by history and the knowledge of life, I even considered studying history but started a degree in Geography after leaving college. However, even though I breathed this information, it was more of a hobby than what I wanted for the future, and that is when I found myself in the area of technology. Anyway here we are studying Computer Science in Harvard and in the not-too-distant future I hope to become a great professional in the field.</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </article>
+            <article class="content">
+                <h1>Food.<br><span>My favorite food</span></h1>
+                <p>I believe that we all have preferences for some foods, but in my humble opinion the best one ever invented is pizza. Since I was a child I have always been fascinated by pizza, and among the various types of flavors my favorite is mozzarella with calabresa. If we are in a group of friends, chatting, playing a board game or any other game, eating a pizza becomes even better.</p>
+            </article>
+            <article class="content">
+                <h1>Dog.<br><span>My dream dog</span></h1>
+                <p>I have always liked animals, but especially dogs. Since my childhood I have always had a few dogs, the one that marked me most was my dog Lassie, a black labrador full of energy and willingness, but unfortunately she is gone. But as you can see in the background of the page ''My Dream Dog'', my dream has always been to have a golden dog, this breed of dog enchants me with its beauty, energy and companionship. Curiosity: His name will be Bento, but his nickname will be bentinho.</p>
+            </article>
+            <article class="content">
+                <h1>Basketball.<br><span>My favorite hobby</span></h1>
+                <p>My favorite hobby has always been to play sports, I like to play ball, volleyball, cycling, running, swimming, but what I have always liked most was basketball. I will confess that I don't have the skills to play on a team, but I have a little notion not to be embarrassed, I even have some medals from championships played for basketball, Department of Aerospace Science. I could have put one of my videos as background, but they would not be as good as this one.</p>
+            </article>
+            <article class="content">
+                <h1>Places.<br><span>My dream place to visit</span></h1>
+                <p>Among the many conquests and dreams that we long for, there is one that is the main one, mine is to visit Switzerland. One of my greatest desires is to travel to the United States, but especially if it is to study or work. But then why has visiting Switzerland become my main dream? I believe that because of the landscapes that it provides, as mentioned in the first page, I have always been fascinated by how the world became the world, and to sit in these places observing the immensity and imagining how big and beautiful it is, must be a magnificent experience.</p>
+            </article>
+            <article class="media-icons">
+                <a href="https://www.linkedin.com/in/olavo-costa-25398b240/" target="_blank" rel="external"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_olavocoosta" target="_blank" rel="external"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/OlavoCosta" target="_blank" rel="external"><i class="fab fa-github"></i></a>
+            </article>
+            <section class="slider-navigation">
+                <nav class="nav-btn active"></nav>
+                <nav class="nav-btn"></nav>
+                <nav class="nav-btn"></nav>
+                <nav class="nav-btn"></nav>
+                <nav class="nav-btn"></nav>
+            </section>
+        </section>
+
+        <script type="text/javascript">
+            //Javascript for video slider navigation
+            const btns = document.querySelectorAll(".nav-btn");
+            const slides = document.querySelectorAll(".video-slide");
+            const contents = document.querySelectorAll(".content");
+
+            var sliderNav = function(manual){
+                btns.forEach((btn) => {
+                    btn.classList.remove("active");
+                })
+
+                slides.forEach((slide) => {
+                    slide.classList.remove("active");
+                })
+
+                contents.forEach((content) => {
+                    content.classList.remove("active");
+                })
+
+                btns[manual].classList.add("active");
+                slides[manual].classList.add("active");
+                contents[manual].classList.add("active");
+            }
+
+            btns.forEach((btn, i) => {
+                btn.addEventListener("click", () => {
+                    sliderNav(i);
+                });
+            });
+
+            //JavaScript for Read more.
+
+            function myFunction(){
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+                }
+            }
+
+        </script>
+    </body>
+</html>

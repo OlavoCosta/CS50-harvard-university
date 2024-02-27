@@ -1,0 +1,31 @@
+In order to obtain a more precise result, I used the three txt files available for the exercise.
+As the first tests did not give an accurate result, I tested with some of the available files, being respectively: sorted5000.txt; reversed10000.txt; random50000.txt.
+follows the analysis and conclusion of the tests below.
+
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble Sort becomes explicit after the third test. In the second test it already showed the result a little faster than the sort1 test, but to perform an accurate test,
+                  the third test with a random file became clear with a time of 3.826 seconds to complete, because if we give bubble an already sorted file it will be faster than the selection
+                  file, going through each number one pair at a time realizing that there are no necessary exchanges.
+
+                  using the file sorted5000.txt; sort1 took a real time of 0.127 seconds to deliver the result in order.
+                  using the file reversed10000.txt; sort1 took a real time of 0.259 seconds to deliver the result in order.
+                  using the file random50000.txt; sort1 took a real time of 7.526 seconds to deliver the result in order.
+
+sort2 uses: Merge Sort
+
+How do you know?: In the first sort2 test it was apparently not the fastest test, but after performing the three tests we obtained the result that, the sort2 file is the MERGE SORT
+                  because it performed best among the others.
+
+                  using the file sorted5000.txt; sort2 took a real time of 0.033 seconds to deliver the result in order.
+                  using the file reversed10000.txt; sort2 took a real time of 0.090 seconds to deliver the result in order.
+                  using the file random50000.txt; sort2 took a real time of 0.657 seconds to deliver the result in order.
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort is the slowest test among the sort2 and sort3 tests, sort1 took approximately 8,500 seconds to return the sorted test, this is because the selection
+                  sort has to go through the entire array checking the smallest number every time, even if it is already sorted.
+
+                  using the file sorted5000.txt; sort3 took a real time of 0.044 seconds to deliver the result in order.
+                  using the file reversed10000.txt; sort3 took a real time of 0.156 seconds to deliver the result in order.
+                  using the file random50000.txt; sort3 took a real time of 3.250 seconds to deliver the result in order.
