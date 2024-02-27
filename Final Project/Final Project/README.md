@@ -1,11 +1,52 @@
-# Sign up on the LandingPage to receive guidance on CS50.
-## Video Demo: https://www.youtube.com/watch?v=sMItbCt4GBU
+# CS50 Landing Page
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Objective](#project-objective)
+  - [Purpose](#purpose)
+- [Preview of CS50](#preview-of-cs50)
+  - [Week 0: Scratch](#week-0-scratch)
+  - [Weeks 1 to 5](#weeks-1-to-5)
+  - [Week 6: Python and Databases](#week-6-python-and-databases)
+  - [Front-End Development](#front-end-development)
+  - [Flask Framework](#flask-framework)
+  - [Registration](#registration)
+  - [Closing Thoughts](#closing-thoughts)
+
+## Introduction
+Welcome to the [CS50 Landing Page](#)! This project aims to provide a comprehensive overview of the activities undertaken during the Harvard CS50 course. Whether you are a current student seeking assistance or a prospective student considering CS50, this page offers insights into the learning journey and opportunities for future mentoring.
 
 ## Project Objective
+In the midst of CS50 weeks, the need for a supportive community became evident. To address this, I created a [Landing Page](#) showcasing my CS50 journey. This page not only serves as a resource for the community but also offers an opportunity for future students to register for mentoring.
 
-#### Description: In the middle of the CS50 weeks, I felt the need to seek help from colleagues in some forums, as I found some bugs in my code. It was not impossible to get help in the Discord community, but sometimes it was difficult to contact, and feeling this need to have someone to help me, I decided in my final project to create a LandingPage presenting everything I did during my time in the Computer Science Harvard CS50 course. This landing page contains some of the activities proposed by CS50 in which I had to work hard to complete them, in each part of the landing page I separate by WEEKS, from 0 to week 10, each week shows one or more activities, tells a little about each one, but of course if you want to see in detail you can visit my GitHub or start your education in CS50.
+### Purpose
+The main objectives of this Landing Page are:
+- Provide a [preview of CS50 activities](#).
+- Offer [assistance to the community](#).
+- Enable [registration for mentoring](#) future CS50 students.
 
-### But what is the purpose of this page that gives us a preview of CS50?
+## Preview of CS50
+The Landing Page is organized by weeks, detailing activities from [Week 0](#) to [Week 10](#).
 
-#### In addition to serving as an aid to the community, at the end of the landing page you will be able to register on my page with the intention of leaving your registration so that I can contact future CS50 students, thus being able to carry out a mentoring for each registration made, sending your doubts and questions by the email left. To detail the weeks a bit more, in week 0 the scratch page will be presented, it will contain like the other pages a short presentation about what was done as activities of that week, in addition to the presentation a button will be displayed in which clicking will direct the user to where the scratch project is located, in this case the MIT website. Weeks 1 to 5 are displayed on the page below the scratch page, it will contain buttons that simulate a small photo gallery, in which most of the projects developed in the second week are exposed, if there are difficulties to see the codes in the images I advise you to visit my github to observe better. In week 6, Python shows its logo and some details that we should know after long weeks of learning the C language. Python teaches us how learning the C language was essential for us to learn future languages, and one of them was Python, which presents similar characteristics but in a more friendly way. After learning Python it was time to implement Python and SQL in the same lines of code, this week we learned to manipulate data in databases, tables, and countless activities in which the course offers us, on this page we can see briefly about the activities carried out and some of the largest database servers available on the market.We also have the front-end page, it shows a small detail about the activities carried out in HTML, CSS and JavaScript. This part requires a lot of creativity and organization, since to organize the ideas it is necessary to have a good base on the other activities carried out previously. Arriving at one of our last pages we have the Python framework, flask, this page displays as well as the others a brief summary of the activities and tells us how flask united with Python, database and the front-end becomes a powerful framework, it will facilitate our organization in the lines of code, what we usually call clean code. Finally, in this part of the registration the user who feels comfortable to register will leave his name, email, which I believe is the primary to get in touch with the user, but there are also other fields such as: telephone, gender, date of birth for a possible 24h follow-up during his day as a birthday present, the state where he lives and the city. On the last page it will be possible to visualize one of the most expected phrases throughout the course, and particularly similar to the most repeated phrase and cheered by all, "This is CS50", but in the format "This was CS50". The whole course is of extreme quality, it is of great value to do it because it will add a lot to your knowledge.
+### Week 0: Scratch
+The [Scratch page](https://scratch.mit.edu/) introduces the first week's activities, including a brief presentation and a link to the Scratch project on the [MIT website](https://scratch.mit.edu/projects/841761769/).
+
+### Weeks 1 to 5
+These weeks showcase a simulated photo gallery of projects developed during the early weeks. For a detailed view, the [GitHub repository](https://github.com/OlavoCosta/CS50-harvard-university) is recommended.
+
+### Week 6: Python and Databases
+This section discusses the transition from learning C to Python, emphasizing the importance of C in understanding subsequent languages. It also covers Python and SQL integration, exploring database manipulation and various activities.
+
+### Front-End Development
+Here, we delve into HTML, CSS, and JavaScript activities, highlighting the creativity and organization required for effective [front-end development](https://github.com/OlavoCosta/CS50-harvard-university/tree/main/Week%208).
+
+### Flask Framework
+The [Flask page](#) provides a summary of activities, emphasizing how Flask, when combined with Python, databases, and front-end development, becomes a powerful framework for clean code organization.
+
+### Registration
+At the end of the journey, interested users can [register](#), providing essential details such as name, email, phone, gender, date of birth, state, and city. This registration facilitates future mentoring.
+
+### Closing Thoughts
+The final page concludes with reflections on the CS50 experience, emphasizing its quality and the significant knowledge gained. "[This was CS50](#)" encapsulates the course's impact, encouraging others to embark on this enriching educational journey.
+
+Feel free to explore the [Video Demo](https://www.youtube.com/watch?v=sMItbCt4GBU) for a visual walkthrough of the CS50 Landing Page. For detailed project insights, visit the associated [GitHub repository](https://github.com/OlavoCosta/CS50-harvard-university).
