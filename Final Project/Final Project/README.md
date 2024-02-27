@@ -29,16 +29,16 @@ The main objectives of this Landing Page are:
 The Landing Page is organized by weeks, detailing activities from [Week 0](#) to [Week 10](#).
 
 ### Week 0: Scratch
-The [Scratch page](#) introduces the first week's activities, including a brief presentation and a link to the Scratch project on the [MIT website](#).
+The [Scratch page](https://scratch.mit.edu/) introduces the first week's activities, including a brief presentation and a link to the Scratch project on the [MIT website](https://scratch.mit.edu/projects/841761769/).
 
 ### Weeks 1 to 5
-These weeks showcase a simulated photo gallery of projects developed during the early weeks. For a detailed view, the [GitHub repository](#) is recommended.
+These weeks showcase a simulated photo gallery of projects developed during the early weeks. For a detailed view, the [GitHub repository](https://github.com/OlavoCosta/CS50-harvard-university) is recommended.
 
 ### Week 6: Python and Databases
 This section discusses the transition from learning C to Python, emphasizing the importance of C in understanding subsequent languages. It also covers Python and SQL integration, exploring database manipulation and various activities.
 
 ### Front-End Development
-Here, we delve into HTML, CSS, and JavaScript activities, highlighting the creativity and organization required for effective [front-end development](#).
+Here, we delve into HTML, CSS, and JavaScript activities, highlighting the creativity and organization required for effective [front-end development](https://github.com/OlavoCosta/CS50-harvard-university/tree/main/Week%208).
 
 ### Flask Framework
 The [Flask page](#) provides a summary of activities, emphasizing how Flask, when combined with Python, databases, and front-end development, becomes a powerful framework for clean code organization.
@@ -49,4 +49,4 @@ At the end of the journey, interested users can [register](#), providing essenti
 ### Closing Thoughts
 The final page concludes with reflections on the CS50 experience, emphasizing its quality and the significant knowledge gained. "[This was CS50](#)" encapsulates the course's impact, encouraging others to embark on this enriching educational journey.
 
-Feel free to explore the [Video Demo](https://www.youtube.com/watch?v=sMItbCt4GBU) for a visual walkthrough of the CS50 Landing Page. For detailed project insights, visit the associated [GitHub repository](#).
+Feel free to explore the [Video Demo](https://www.youtube.com/watch?v=sMItbCt4GBU) for a visual walkthrough of the CS50 Landing Page. For detailed project insights, visit the associated [GitHub repository](https://github.com/OlavoCosta/CS50-harvard-university).
